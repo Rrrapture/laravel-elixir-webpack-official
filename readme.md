@@ -29,7 +29,7 @@ elixir(function(mix) {
 
 This will compile `app/assets/js/app.js` to `public/dist/app.js`.
 
-If you'd like to leverage more of Webpack's functionality, Elixir will read any `webpack.config.js` file in your project root, and [factor its configuration](https://webpack.github.io/docs/configuration.html) into the build process. Alternatively, you may pass your Webpack-specific configuration as the fourth argument to `mix.webpack()`.
+If you'd like to leverage more of Webpack's functionality, Elixir will read any `webpack.config.js` file in your project root, and [factor its configuration](https://webpack.js.org/concepts/configuration) into the build process. Alternatively, you may pass your Webpack-specific configuration as the fourth argument to `mix.webpack()`.
 
 ## Step 3: Plugins
 
